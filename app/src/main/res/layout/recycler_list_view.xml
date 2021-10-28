@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:weightSum="1"
+    android:padding="@dimen/_2sdp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_weight="0.3"
+        android:layout_width="0dp"
+        android:layout_gravity="center"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/ic_baseline_add_24"
+        app:civ_border_width="@dimen/_2sdp"
+        app:civ_border_color="#FF000000"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/text_id"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_weight="0.7"
+        android:layout_width="0dp"
+        android:textSize="@dimen/_26sdp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:text="jslfdl"
+        android:fontFamily="cursive"
+        android:background="?attr/selectableItemBackground"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    <View
+        android:background="#e0e0e0"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"/>
+
+</LinearLayout>
